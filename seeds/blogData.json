@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Help",
+        "content": "I'm trapped in the content section.",
+        "user_id": 1
+    },
+    {
+        "title": "No seriously, help",
+        "content": "I can't feel my legs.",
+        "user_id": 2
+    },
+    {
+        "title": "Nevermind, I'm good",
+        "content": "Found a light switch.",
+        "user_id": 1
+    }
+]

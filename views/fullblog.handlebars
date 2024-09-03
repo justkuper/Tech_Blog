@@ -1,0 +1,33 @@
+
+<div class="row">
+    <div class="col s12">
+      <div class="card">
+        <div class="card-content black-text">
+          <span class="card-title">{{title}} Written By: {{User.username}} On: {{createdAt}}</span>
+          <p>{{content}}</p>
+          {{#each Comment}}
+        <ul>
+          <li>{{this.comment}} - by {{this.User.username}} on {{this.createdAt}}</li>
+        </ul>
+        {{/each}}
+      </div>
+        </div>
+          {{#if logged_in}}
+   <div class="row">
+    <form id="comment-form" class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" data-blogId={{id}} class="materialize-textarea"></textarea>
+          <label  for="textarea1">Leave a Comment:</label>
+          <button type="submit" class="waves-effect waves-light btn">Add Comment</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  {{/if}}
+      </div>
+    </div>
+  </div>
+ <script src="/js/comment.js"></script>
+  
+    

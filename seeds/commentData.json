@@ -1,0 +1,17 @@
+[
+    {
+    "comment": "Is this thing on?",
+    "user_id": 1,
+    "blog_id": 1
+    },
+    {
+    "comment": "Have you tried turning it off and on again?",
+    "user_id": 2,
+    "blog_id": 1
+    },
+    {
+    "comment": "I think I'd know what on looks like!",
+    "user_id": 1,
+    "blog_id": 1
+    }
+]
